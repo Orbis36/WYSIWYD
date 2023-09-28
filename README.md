@@ -17,7 +17,7 @@ Our paper will be available on ArXiv soon.
 2. Replace the configuration files provided 
 
     Please download the related weights and files the following links, depend on you are in China or not. 
-    - [`Baidu Cloud`](https://pan.baidu.com/s/1Fr8WHcjjLmLLohcSCXIGhQ?pwd=hqtc)
+    - [`Baidu Cloud`](https://pan.baidu.com/s/1Fr8WHcjjLmLLohcSCXIGhQ?pwd=hqtc)  
    or 
     - [`OneDrive`](https://uottawa-my.sharepoint.com/personal/tliu157_uottawa_ca/_layouts/15/guestaccess.aspx?share=Eo3E71Zo0mhDlvNuGHFGeygB8ZxNgMXufEbYfTRBdhmn_A&e=6H02Hp)  
     You need to change the 'get_lidar' function in pcdet/datasets/kitti/kitti_dataset.py around line 70 by
