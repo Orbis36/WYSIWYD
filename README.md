@@ -7,16 +7,17 @@ We first released the augmented lidar signal for performance open review.
 The codes to generate added points will be released after the paper gets accepted.
 
 We now provide pre-trained weights for Voxel-RCNN and the augmented lidar points.
+
 Our paper is available on ArXiv at https://arxiv.org/abs/2310.17842
 
-## Performance verification
+## Results reproduce
 1.  Prepare for the running environment. 
 
     Please follow the docker image provided by [`Voxel-R-CNN`](https://github.com/djiajunustc/Voxel-R-CNN) to set up your environment.
 
 2. Replace the configuration files provided 
 
-    Please download the related weights and files from the following links, depending on whether you are in China or not. 
+    Please download the related weights and files from the following links.
     - [`Baidu Cloud`](https://pan.baidu.com/s/1Fr8WHcjjLmLLohcSCXIGhQ?pwd=hqtc)  
    or 
     - [`OneDrive`](https://uottawa-my.sharepoint.com/personal/tliu157_uottawa_ca/_layouts/15/guestaccess.aspx?share=Eo3E71Zo0mhDlvNuGHFGeygB8ZxNgMXufEbYfTRBdhmn_A&e=6H02Hp)  
@@ -52,10 +53,10 @@ Our paper is available on ArXiv at https://arxiv.org/abs/2310.17842
 
 5. Train the model with the provided lidar data
 
-    Please take the YAML file provided for an inference, cancel the GT-Sampling in the training pipeline, will
+    Please take the YAML file provided for an inference, cancel the GT-Sampling in the training pipeline, and will
     be better for performance.
 
-With the main_res.pth, the result should be as follows. Please feel free to check the further result from our paper.
+With the main_res.pth, the result should be as follows. Please feel free to check the further results from our paper.
 ```
 Car AP_R40@0.70, 0.70, 0.70:
 bbox AP:98.9053, 95.9023, 93.4399
@@ -71,5 +72,5 @@ aos  AP:37.56, 37.52, 34.45
 ```
 
 ## Acknowledge
-Our future released codes are based on [`OpenPCDet`](https://github.com/open-mmlab/OpenPCDet) 
+Our codes are based on [`OpenPCDet`](https://github.com/open-mmlab/OpenPCDet) 
 and some parts of the code were designed with reference to [`Pixel2Mesh`](https://github.com/nywang16/Pixel2Mesh)
